@@ -1,0 +1,34 @@
+[20/01/2026, 10:30:15] Alice: Hey! How are you? 😊
+[20/01/2026, 10:31:22] Bob: I'm great! Just finished work
+[20/01/2026, 10:32:45] Alice: Nice! Want to grab lunch tomorrow?
+[20/01/2026, 10:33:10] Bob: Absolutely! Where were you thinking?
+[20/01/2026, 10:35:20] Alice: How about that new Italian place downtown? 🍕
+[20/01/2026, 10:36:05] Bob: Perfect! 1pm work for you?
+[20/01/2026, 10:37:15] Alice: Yes! See you then 👍
+[20/01/2026, 14:25:30] Bob: Running 5 mins late, sorry!
+[20/01/2026, 14:30:45] Alice: No worries! I'm here already
+[20/01/2026, 14:45:12] Bob: This pasta is amazing! 😋
+[20/01/2026, 14:46:20] Alice: Told you! Best carbonara in town
+[20/01/2026, 15:10:30] Bob: Thanks for the recommendation!
+[20/01/2026, 15:11:05] Alice: Anytime! We should do this again
+[21/01/2026, 09:15:22] Alice: Morning! 🌅
+[21/01/2026, 09:20:10] Bob: Good morning! How was your evening?
+[21/01/2026, 09:25:45] Alice: Great! Watched that movie you recommended
+[21/01/2026, 09:30:15] Bob: Oh nice! What did you think?
+[21/01/2026, 09:35:30] Alice: Loved it! The ending was unexpected 🎬
+[21/01/2026, 09:40:22] Bob: Right? I knew you'd like it
+[21/01/2026, 10:15:40] Alice: Want to catch up this weekend?
+[21/01/2026, 10:20:15] Bob: Definitely! Saturday afternoon?
+[21/01/2026, 10:25:30] Alice: Sounds perfect! 🎉
+[21/01/2026, 18:30:20] Bob: Just got home from gym
+[21/01/2026, 18:35:45] Alice: Good for you! I should really start working out
+[21/01/2026, 18:40:10] Bob: We can go together if you want!
+[21/01/2026, 18:45:22] Alice: That would be great! Thanks 💪
+[22/01/2026, 11:20:15] Alice: Coffee break! ☕
+[22/01/2026, 11:25:30] Bob: Same! What are you having?
+[22/01/2026, 11:30:45] Alice: Cappuccino as usual 😊
+[22/01/2026, 11:35:10] Bob: Classic choice!
+[22/01/2026, 16:45:20] Bob: Meeting ran so long today 😴
+[22/01/2026, 16:50:35] Alice: Ugh, I hate long meetings
+[22/01/2026, 16:55:42] Bob: Same! Anyway, looking forward to Saturday
+[22/01/2026, 17:00:15] Alice: Me too! See you then 👋
