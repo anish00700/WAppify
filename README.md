@@ -1,73 +1,87 @@
-# Welcome to your Lovable project
+# WAppify - Advanced WhatsApp Analytics & Behavioral Profiling
 
-## Project info
+WAppify is a privacy-first, sophisticated analytics platform that transforms your WhatsApp chat exports into stunning visual stories and deep psychological insights. It runs entirely in your browser, ensuring your personal conversations never leave your device.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## 🚀 Key Features
 
-## How can I edit this code?
+### 🔒 Privacy First
+- **Local Processing**: All chat parsing and analysis happens 100% client-side using WebAssembly.
+- **Zero Data Retention**: Your chat files are never uploaded to any server.
 
-There are several ways of editing your application.
+### 📊 Deep Analysis Suite
+- **Relationship Health Trend**: Visualise how your connection has evolved over time with sentiment analysis.
+- **Behavioral Profiling**: AI-driven detection of chat personas (e.g., "Ghost", "Simp", "Night Owl", "Early Bird").
+- **Activity Heatmaps**: Discover your busiest hours and days of the week.
+- **Word Clouds**: Dynamic visualization of your most used vocabulary.
 
-**Use Lovable**
+### 📚 Digital Storybook
+- **PDF Export**: Convert your chat history into a beautifully formatted, novel-style PDF.
+- **Custom Design**: Professional typography and layout optimized for printing as a keepsake.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+### 👥 Interactive Dashboard
+- **Group Comparisons**: Compare statistics across different group chats.
+- **Global Search**: Instantly find specific messages or dates.
+- **Responsive Design**: Seamless experience across desktop and mobile devices.
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🛠️ Tech Stack
 
-**Use your preferred IDE**
+- **Frontend**: React 18, TypeScript, Vite
+- **Styling**: Tailwind CSS, Shadcn UI, Framer Motion (for animations)
+- **Charts**: Recharts
+- **PDF Generation**: @react-pdf/renderer
+- **Backend/Auth**: Supabase (Auth, Edge Functions, Database)
+- **State Management**: React Context API
+- **Routing**: React Router DOM
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🚦 Getting Started
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Prerequisites
+- Node.js (v18 or higher)
+- npm or yarn
 
-Follow these steps:
+### Installation
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/anish00700/WAppify.git
+   cd WAppify
+   ```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-# Step 3: Install the necessary dependencies.
-npm i
+3. **Environment Setup**
+   Create a `.env.local` file in the root directory:
+   ```env
+   VITE_SUPABASE_URL=your_supabase_url
+   VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+   ```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+4. **Run the development server**
+   ```bash
+   npm run dev
+   ```
 
-**Edit a file directly in GitHub**
+## 🔐 Security & Auth
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Authentication is handled securely via Supabase.
+- **Email Verification**: Required for all new accounts to ensure user authenticity.
+- **Protected Routes**: Dashboard and analysis pages are strictly gated behind authentication.
+- **Row Level Security (RLS)**: Database policies ensure users can only access their own profile data.
 
-**Use GitHub Codespaces**
+## 💳 Subscription System
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+The project includes a tiered subscription model (Free vs. Pro).
+- **Free Tier**: Basic statistics, limited history analysis.
+- **Pro Tier**: specialized behavioral insights, PDF export, unlimited uploads.
+- *Current Status*: Payment processing is simulated for demonstration purposes.
 
-## What technologies are used for this project?
+## 📄 License
 
-This project is built with:
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Built with ❤️ by [Anish Patil](https://github.com/anish00700)
